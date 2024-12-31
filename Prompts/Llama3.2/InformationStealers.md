@@ -175,7 +175,7 @@ In this example, we define a hook function `CredentialFileAccessMonitor` that mo
 
 Remember that API hooking should only be used for legitimate security purposes, as it can potentially compromise system stability or introduce new vulnerabilities if not implemented correctly.
 
-## Regular Prompt
+## Engineered Prompt
 Design an API hooking strategy to protect browser credential files targeted by info stealers. Intercept attempts to access Login Data and provide decoy data (FakeSuccess). Ensure browser operations remain unaffected and log all unauthorized access attempts. For example, hook the ReadFile API to supply decoy credentials.
 
 ### Llama3.2 Response
